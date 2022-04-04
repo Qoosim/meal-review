@@ -40,10 +40,10 @@ function App() {
   if (meals.length === 0) {
     return (
       <main className="text-center p-5 text-5xl font-bold">
-        <h4>no meal to order</h4>
+        <h4 className="capitalize text-xl">no meal to order</h4>
         <button 
           onClick={() => fetchFromApi()}
-          className="text-lg px-2 text-white bg-sky-500 capitalize"
+          className="text-3xl font-bold px-2 text-white bg-blue-400 rounded-md capitalize font-inter"
         >
           refresh
         </button>

@@ -3,7 +3,7 @@
 > This is a react application used as a practicing project to become better in react.
 > The user can remove a meal if it does not interest the him or her
 
-![screenshot](./src/images/meal.jpeg)
+![screenshot](./src/images/display.mp4)
 
 ## ⚒️  Built with
 
