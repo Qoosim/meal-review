@@ -4,7 +4,7 @@ const Meal = ({ idCategory, strCategory, strCategoryDescription, strCategoryThum
   const [readMore, setReadMore] = React.useState(false);
 
   return (
-    <article className="shadow-xl my-8 p-2 rounded-md">
+    <article className="shadow-xl my-8 p-2 rounded-md bg-white">
       <img 
         src={strCategoryThumb}
         alt={strCategory} 
