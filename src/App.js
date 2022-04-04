@@ -33,7 +33,7 @@ function App() {
   }
 
   return (
-    <main>
+    <main className="container mx-auto flex place-content-center">
       <Tours 
         tours={tours}
       />

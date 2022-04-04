@@ -3,7 +3,7 @@ import Tour from './Tour';
 
 const Tours = ({ tours }) => {
   return (
-    <>
+    <main className="w-2/5 border-2 border-gray">
       <div>
         <h2>our tours</h2>
         <div className="underline"></div>
@@ -18,7 +18,7 @@ const Tours = ({ tours }) => {
           )
       })
       }
-    </>
+    </main>
   )
 }
 
